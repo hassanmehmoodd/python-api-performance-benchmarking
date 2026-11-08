@@ -1,0 +1,3 @@
+from demo_api.main import main
+
+main()
