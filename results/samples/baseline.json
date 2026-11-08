@@ -1,0 +1,188 @@
+{
+  "created_at": "2026-11-08T17:08:47.492Z",
+  "scenario": "portfolio",
+  "base_url": "http://127.0.0.1:8000",
+  "run_id": "20261108T170835621278Z",
+  "metrics": [
+    {
+      "endpoint": "health",
+      "concurrency": 1,
+      "p95_ms": 1.2830499999999998,
+      "throughput_rps": 1012.8016995411751
+    },
+    {
+      "endpoint": "health",
+      "concurrency": 5,
+      "p95_ms": 5.7227,
+      "throughput_rps": 1161.0118351653327
+    },
+    {
+      "endpoint": "health",
+      "concurrency": 10,
+      "p95_ms": 15.877399999999998,
+      "throughput_rps": 1077.007996929677
+    },
+    {
+      "endpoint": "health",
+      "concurrency": 25,
+      "p95_ms": 59.89249999999999,
+      "throughput_rps": 943.8847981054373
+    },
+    {
+      "endpoint": "health",
+      "concurrency": 50,
+      "p95_ms": 80.4339,
+      "throughput_rps": 882.7677673816152
+    },
+    {
+      "endpoint": "items",
+      "concurrency": 1,
+      "p95_ms": 1.43675,
+      "throughput_rps": 830.1228160494518
+    },
+    {
+      "endpoint": "items",
+      "concurrency": 5,
+      "p95_ms": 6.0883,
+      "throughput_rps": 1035.0540058206157
+    },
+    {
+      "endpoint": "items",
+      "concurrency": 10,
+      "p95_ms": 18.7999,
+      "throughput_rps": 964.6026051899695
+    },
+    {
+      "endpoint": "items",
+      "concurrency": 25,
+      "p95_ms": 57.77279999999997,
+      "throughput_rps": 904.8741032255712
+    },
+    {
+      "endpoint": "items",
+      "concurrency": 50,
+      "p95_ms": 80.66195,
+      "throughput_rps": 867.5786791117894
+    },
+    {
+      "endpoint": "item_detail",
+      "concurrency": 1,
+      "p95_ms": 1.5062,
+      "throughput_rps": 824.3260938402119
+    },
+    {
+      "endpoint": "item_detail",
+      "concurrency": 5,
+      "p95_ms": 6.2818999999999985,
+      "throughput_rps": 1098.3667766585847
+    },
+    {
+      "endpoint": "item_detail",
+      "concurrency": 10,
+      "p95_ms": 18.76065,
+      "throughput_rps": 918.4902055476504
+    },
+    {
+      "endpoint": "item_detail",
+      "concurrency": 25,
+      "p95_ms": 63.452699999999986,
+      "throughput_rps": 884.8820740332606
+    },
+    {
+      "endpoint": "item_detail",
+      "concurrency": 50,
+      "p95_ms": 80.66115,
+      "throughput_rps": 883.5749122857579
+    },
+    {
+      "endpoint": "db_orders",
+      "concurrency": 1,
+      "p95_ms": 27.3556,
+      "throughput_rps": 36.83456812536137
+    },
+    {
+      "endpoint": "db_orders",
+      "concurrency": 5,
+      "p95_ms": 30.14405,
+      "throughput_rps": 173.74169941427235
+    },
+    {
+      "endpoint": "db_orders",
+      "concurrency": 10,
+      "p95_ms": 31.7536,
+      "throughput_rps": 337.95573558013194
+    },
+    {
+      "endpoint": "db_orders",
+      "concurrency": 25,
+      "p95_ms": 50.349999999999994,
+      "throughput_rps": 606.9153083367727
+    },
+    {
+      "endpoint": "db_orders",
+      "concurrency": 50,
+      "p95_ms": 174.8757,
+      "throughput_rps": 413.5916301296992
+    },
+    {
+      "endpoint": "compute",
+      "concurrency": 1,
+      "p95_ms": 8.769850000000002,
+      "throughput_rps": 121.41698680617671
+    },
+    {
+      "endpoint": "compute",
+      "concurrency": 5,
+      "p95_ms": 47.282499999999985,
+      "throughput_rps": 132.44652591959172
+    },
+    {
+      "endpoint": "compute",
+      "concurrency": 10,
+      "p95_ms": 109.58239999999999,
+      "throughput_rps": 132.60780926628163
+    },
+    {
+      "endpoint": "compute",
+      "concurrency": 25,
+      "p95_ms": 201.85555,
+      "throughput_rps": 137.61650460608502
+    },
+    {
+      "endpoint": "compute",
+      "concurrency": 50,
+      "p95_ms": 489.3745,
+      "throughput_rps": 124.86208085720759
+    },
+    {
+      "endpoint": "secure_profile",
+      "concurrency": 1,
+      "p95_ms": 2.29935,
+      "throughput_rps": 490.5729990130532
+    },
+    {
+      "endpoint": "secure_profile",
+      "concurrency": 5,
+      "p95_ms": 13.7821,
+      "throughput_rps": 425.74549419706597
+    },
+    {
+      "endpoint": "secure_profile",
+      "concurrency": 10,
+      "p95_ms": 83.77945000000001,
+      "throughput_rps": 302.60744122616836
+    },
+    {
+      "endpoint": "secure_profile",
+      "concurrency": 25,
+      "p95_ms": 159.9936,
+      "throughput_rps": 369.5625477035082
+    },
+    {
+      "endpoint": "secure_profile",
+      "concurrency": 50,
+      "p95_ms": 212.4195,
+      "throughput_rps": 338.36228509092933
+    }
+  ]
+}

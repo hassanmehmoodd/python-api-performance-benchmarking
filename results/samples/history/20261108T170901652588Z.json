@@ -1,0 +1,458 @@
+{
+  "run_id": "20261108T170901652588Z",
+  "scenario": "portfolio",
+  "started_at": "2026-11-08T17:09:01.652Z",
+  "base_url": "http://127.0.0.1:8000",
+  "points": [
+    {
+      "endpoint": "health",
+      "role": "performance",
+      "concurrency": 1,
+      "p95_ms": 1.3086499999999996,
+      "throughput_rps": 1025.9864937102282,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "health",
+      "role": "performance",
+      "concurrency": 5,
+      "p95_ms": 5.542,
+      "throughput_rps": 1113.3919099002992,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "health",
+      "role": "performance",
+      "concurrency": 10,
+      "p95_ms": 16.512099999999997,
+      "throughput_rps": 1031.7390664831632,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "health",
+      "role": "performance",
+      "concurrency": 25,
+      "p95_ms": 55.52664999999999,
+      "throughput_rps": 941.1917178935471,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "health",
+      "role": "performance",
+      "concurrency": 50,
+      "p95_ms": 79.42885000000001,
+      "throughput_rps": 895.3178780801736,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "items",
+      "role": "performance",
+      "concurrency": 1,
+      "p95_ms": 1.6020500000000002,
+      "throughput_rps": 813.6701466659927,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "items",
+      "role": "performance",
+      "concurrency": 5,
+      "p95_ms": 6.180999999999999,
+      "throughput_rps": 1136.8536461204524,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "items",
+      "role": "performance",
+      "concurrency": 10,
+      "p95_ms": 18.5291,
+      "throughput_rps": 927.9917924703534,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "items",
+      "role": "performance",
+      "concurrency": 25,
+      "p95_ms": 62.01664999999999,
+      "throughput_rps": 939.22099038694,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "items",
+      "role": "performance",
+      "concurrency": 50,
+      "p95_ms": 78.74775,
+      "throughput_rps": 883.0064763462169,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "item_detail",
+      "role": "performance",
+      "concurrency": 1,
+      "p95_ms": 1.5428999999999997,
+      "throughput_rps": 818.1344323929206,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "item_detail",
+      "role": "performance",
+      "concurrency": 5,
+      "p95_ms": 6.1138,
+      "throughput_rps": 982.7709322244152,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "item_detail",
+      "role": "performance",
+      "concurrency": 10,
+      "p95_ms": 18.581449999999997,
+      "throughput_rps": 958.3707582117752,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "item_detail",
+      "role": "performance",
+      "concurrency": 25,
+      "p95_ms": 62.95239999999999,
+      "throughput_rps": 891.9524283414667,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "item_detail",
+      "role": "performance",
+      "concurrency": 50,
+      "p95_ms": 80.0029,
+      "throughput_rps": 874.3034383517942,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "db_orders",
+      "role": "performance",
+      "concurrency": 1,
+      "p95_ms": 27.5049,
+      "throughput_rps": 36.88311798003295,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "db_orders",
+      "role": "performance",
+      "concurrency": 5,
+      "p95_ms": 29.9309,
+      "throughput_rps": 176.11480356959476,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "db_orders",
+      "role": "performance",
+      "concurrency": 10,
+      "p95_ms": 33.27975,
+      "throughput_rps": 339.86247524400784,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "db_orders",
+      "role": "performance",
+      "concurrency": 25,
+      "p95_ms": 51.2212,
+      "throughput_rps": 591.4965669796433,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "db_orders",
+      "role": "performance",
+      "concurrency": 50,
+      "p95_ms": 169.94124999999997,
+      "throughput_rps": 424.85228682600564,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "compute",
+      "role": "performance",
+      "concurrency": 1,
+      "p95_ms": 8.31535,
+      "throughput_rps": 124.96928821162695,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "compute",
+      "role": "performance",
+      "concurrency": 5,
+      "p95_ms": 45.94125,
+      "throughput_rps": 138.67319044521074,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "compute",
+      "role": "performance",
+      "concurrency": 10,
+      "p95_ms": 88.52315,
+      "throughput_rps": 142.6971617565,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "compute",
+      "role": "performance",
+      "concurrency": 25,
+      "p95_ms": 193.5837,
+      "throughput_rps": 143.53415450462978,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "compute",
+      "role": "performance",
+      "concurrency": 50,
+      "p95_ms": 389.6348,
+      "throughput_rps": 143.29035796976567,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "secure_profile",
+      "role": "performance",
+      "concurrency": 1,
+      "p95_ms": 2.21455,
+      "throughput_rps": 503.1312815548092,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "secure_profile",
+      "role": "performance",
+      "concurrency": 5,
+      "p95_ms": 13.600100000000001,
+      "throughput_rps": 428.37507673551875,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "secure_profile",
+      "role": "performance",
+      "concurrency": 10,
+      "p95_ms": 60.7436,
+      "throughput_rps": 336.23874006348336,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "secure_profile",
+      "role": "performance",
+      "concurrency": 25,
+      "p95_ms": 165.38889999999998,
+      "throughput_rps": 354.4899477442432,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "secure_profile",
+      "role": "performance",
+      "concurrency": 50,
+      "p95_ms": 207.74965,
+      "throughput_rps": 345.04947235234965,
+      "error_rate": 0.0,
+      "successes": 80,
+      "requests": 80
+    },
+    {
+      "endpoint": "secure_unauthorized",
+      "role": "auth_check",
+      "concurrency": 1,
+      "p95_ms": 2.1029000000000004,
+      "throughput_rps": 501.21515855980175,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "secure_unauthorized",
+      "role": "auth_check",
+      "concurrency": 5,
+      "p95_ms": 18.46155000000002,
+      "throughput_rps": 434.3379787951681,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "secure_unauthorized",
+      "role": "auth_check",
+      "concurrency": 10,
+      "p95_ms": 34.26615,
+      "throughput_rps": 431.6211805916808,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "secure_unauthorized",
+      "role": "auth_check",
+      "concurrency": 25,
+      "p95_ms": 50.25835000000001,
+      "throughput_rps": 364.9107514055485,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "secure_unauthorized",
+      "role": "auth_check",
+      "concurrency": 50,
+      "p95_ms": 47.837300000000006,
+      "throughput_rps": 379.5652110871435,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "flaky_error",
+      "role": "fault",
+      "concurrency": 1,
+      "p95_ms": 2.4308,
+      "throughput_rps": 475.77234027133363,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "flaky_error",
+      "role": "fault",
+      "concurrency": 5,
+      "p95_ms": 18.96005000000002,
+      "throughput_rps": 423.935895467756,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "flaky_error",
+      "role": "fault",
+      "concurrency": 10,
+      "p95_ms": 35.25365,
+      "throughput_rps": 422.1905551155986,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "flaky_error",
+      "role": "fault",
+      "concurrency": 25,
+      "p95_ms": 47.5686,
+      "throughput_rps": 380.10745637759914,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "flaky_error",
+      "role": "fault",
+      "concurrency": 50,
+      "p95_ms": 48.398,
+      "throughput_rps": 376.14683643912616,
+      "error_rate": 0.0,
+      "successes": 20,
+      "requests": 20
+    },
+    {
+      "endpoint": "flaky_timeout",
+      "role": "fault",
+      "concurrency": 1,
+      "p95_ms": null,
+      "throughput_rps": 0.0,
+      "error_rate": 1.0,
+      "successes": 0,
+      "requests": 12
+    },
+    {
+      "endpoint": "flaky_timeout",
+      "role": "fault",
+      "concurrency": 5,
+      "p95_ms": null,
+      "throughput_rps": 0.0,
+      "error_rate": 1.0,
+      "successes": 0,
+      "requests": 12
+    },
+    {
+      "endpoint": "flaky_timeout",
+      "role": "fault",
+      "concurrency": 10,
+      "p95_ms": null,
+      "throughput_rps": 0.0,
+      "error_rate": 1.0,
+      "successes": 0,
+      "requests": 12
+    },
+    {
+      "endpoint": "flaky_timeout",
+      "role": "fault",
+      "concurrency": 25,
+      "p95_ms": null,
+      "throughput_rps": 0.0,
+      "error_rate": 1.0,
+      "successes": 0,
+      "requests": 12
+    },
+    {
+      "endpoint": "flaky_timeout",
+      "role": "fault",
+      "concurrency": 50,
+      "p95_ms": null,
+      "throughput_rps": 0.0,
+      "error_rate": 1.0,
+      "successes": 0,
+      "requests": 12
+    }
+  ]
+}
