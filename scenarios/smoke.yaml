@@ -1,0 +1,44 @@
+# Short localhost sweep used by GitHub Actions.
+# It only calls the demo API on 127.0.0.1.
+name: smoke
+description: CI smoke sweep against the local demo API.
+base_url: http://127.0.0.1:8000
+concurrency_levels: [1, 5]
+requests_per_level: 6
+timeout_seconds: 3
+warmup_requests: 1
+auth:
+  token_path: /auth/token
+  username: demo
+  password: demo-pass
+endpoints:
+  - name: health
+    method: GET
+    path: /health
+  - name: db_orders
+    method: GET
+    path: /api/db/orders
+    params:
+      delay_ms: 5
+  - name: compute
+    method: GET
+    path: /api/compute/digest
+    params:
+      rounds: 100
+  - name: secure_profile
+    method: GET
+    path: /api/secure/profile
+    auth: true
+  - name: secure_unauthorized
+    method: GET
+    path: /api/secure/profile
+    role: auth_check
+    expected_statuses: [401]
+  - name: flaky_error
+    method: GET
+    path: /api/flaky
+    role: fault
+    expected_statuses: [503]
+    params:
+      mode: error
+      status_code: 503

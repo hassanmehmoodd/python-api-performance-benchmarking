@@ -1,0 +1,65 @@
+# Sample sweep published in the README.
+# Target is the local demo API only. Do not retarget this file at a host you
+# do not own or do not have permission to test.
+name: portfolio
+description: >
+  Local portfolio sweep across fast reads, an injected database delay, a CPU-bound
+  digest, an authenticated call, an unauthorized check, and fault injection.
+base_url: http://127.0.0.1:8000
+concurrency_levels: [1, 5, 10, 25, 50]
+requests_per_level: 80
+timeout_seconds: 5
+warmup_requests: 5
+auth:
+  token_path: /auth/token
+  username: demo
+  password: demo-pass
+endpoints:
+  - name: health
+    method: GET
+    path: /health
+  - name: items
+    method: GET
+    path: /api/items
+  - name: item_detail
+    method: GET
+    path: /api/items/7
+  - name: db_orders
+    method: GET
+    path: /api/db/orders
+    params:
+      delay_ms: 25
+  - name: compute
+    method: GET
+    path: /api/compute/digest
+    params:
+      rounds: 20000
+  - name: secure_profile
+    method: GET
+    path: /api/secure/profile
+    auth: true
+  - name: secure_unauthorized
+    method: GET
+    path: /api/secure/profile
+    role: auth_check
+    requests: 20
+    expected_statuses: [401]
+  - name: flaky_error
+    method: GET
+    path: /api/flaky
+    role: fault
+    requests: 20
+    expected_statuses: [503]
+    params:
+      mode: error
+      status_code: 503
+  - name: flaky_timeout
+    method: GET
+    path: /api/flaky
+    role: fault
+    requests: 12
+    timeout_seconds: 0.1
+    allow_zero_success: true
+    params:
+      mode: slow
+      delay_ms: 500
