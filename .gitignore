@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Benchmark output. The published sample run is kept.
+results/*
+!results/samples/
+!results/samples/**
+
+# Editor and OS
+.idea/
+.vscode/
+.DS_Store
